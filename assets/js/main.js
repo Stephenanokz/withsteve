@@ -105,6 +105,27 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
     },
 });
 
+/*==================== MIXITUP FILTER GALLERY  ====================*/
+let mixerGallery = mixitup('.gallery__container', {
+    selectors: {
+        target: '.gallery__img'
+    },
+    animation: {
+        duration: 300
+    }
+});
+
+/* Link Active Gallery */
+const linkGallery = document.querySelectorAll('.gallery__item');
+
+function activeGallery() {
+    linkGallery.forEach(l => l.classList.remove('active-gallery'));
+    this.classList.add('active-gallery');
+}
+
+linkGallery.forEach(l => l.addEventListener('click', activeGallery))
+
+
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonial = new Swiper(".testimonial__container", {
     loop: true,
