@@ -115,6 +115,9 @@ let mixerGallery = mixitup('.gallery__container', {
     }
 });
 
+/* Default filter products */ 
+mixerGallery.filter('.portraits')
+
 /* Link Active Gallery */
 const linkGallery = document.querySelectorAll('.gallery__item');
 
