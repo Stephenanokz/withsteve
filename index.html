@@ -462,8 +462,8 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        
+
+
                         <!--==================== QUALIFICATION 2====================-->
                         <div class="qualification__data">
                             <div>
@@ -513,7 +513,7 @@
                                 <!-- <span class="qualification__line"></span> -->
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -971,37 +971,37 @@
 
                         <div>
                             <h3 class="contact__title">Location</h3>
-                            <span class="contact__subtitle"><a
-                                href="https://goo.gl/maps/jgmwWZMLpvBVAXNU6" target="_blank">#1-3 CIDJAP street, Uwani, Enugu, Nigeria.</a></span>
+                            <span class="contact__subtitle"><a href="https://goo.gl/maps/jgmwWZMLpvBVAXNU6"
+                                    target="_blank">#1-3 CIDJAP street, Uwani, Enugu, Nigeria.</a></span>
                         </div>
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form method="POST" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="name" class="contact__label">Name</label>
-                            <input type="text" id="name" class="contact__input" placeholder="Your name here">
+                            <input name="name" type="text" id="name" class="contact__input name" placeholder="Your name here">
                         </div>
 
                         <div class="contact__content">
                             <label for="email" class="contact__label">Email</label>
-                            <input type="email" id="email" class="contact__input"
+                            <input name="email" type="email" id="email" class="contact__input email"
                                 placeholder="E.g john.doe@hotmail.com">
                         </div>
                     </div>
                     <div class="contact__content">
                         <label for="project" class="contact__label">Project</label>
-                        <input type="text" id="project" class="contact__input" placeholder="Your project title">
+                        <input name="subject" type="text" id="project" class="contact__input subject" placeholder="Your project title">
                     </div>
                     <div class="contact__content">
                         <label for="message" class="contact__label">Message</label>
-                        <textarea name="message" id="message" cols="0" rows="8" class="contact__input"
+                        <textarea name="message" id="message" cols="0" rows="8" class="contact__input message"
                             placeholder="Type here"></textarea>
                     </div>
 
                     <div>
-                        <button href="#" class="button button--flex">
+                        <button href="#" class="button contact button--flex">
                             Send Message
                             <i class="uil uil-message button__icon"></i>
                         </button>
@@ -1064,6 +1064,9 @@
 
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== SMTP JS ====================-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
