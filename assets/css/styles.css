@@ -548,11 +548,11 @@ img {
 }
 
 .skills__css {
-    width: 80%;
+    width: 90%;
 }
 
 .skills__js {
-    width: 70%;
+    width: 85%;
 }
 
 .skills__react {
@@ -572,19 +572,19 @@ img {
 }
 
 .skills__photoshop {
-    width: 75%;
-}
-
-.skills__canva {
     width: 85%;
 }
 
+.skills__canva {
+    width: 90%;
+}
+
 .skills__illustrator {
-    width: 40%;
+    width: 50%;
 }
 
 .skills__figma {
-    width: 70%;
+    width: 80%;
 }
 
 .skills__close .skills__list {
