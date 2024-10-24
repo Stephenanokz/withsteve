@@ -8,7 +8,7 @@
     --header-height: 3rem;
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250;
+    --hue-color: 120;
     /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -548,27 +548,33 @@ img {
 }
 
 .skills__css {
-    width: 90%;
+    width: 95%;
 }
 
 .skills__js {
-    width: 85%;
+    width: 90%;
 }
 
+.skills__ts {
+    width: 60%;
+}
 .skills__react {
-    width: 70%;
+    width: 85%;
+}
+.skills__next {
+    width: 80%;
 }
 
 .skills__node {
-    width: 70%;
+    width: 85%;
 }
 
 .skills__mongo {
-    width: 70%;
+    width: 85%;
 }
 
 .skills__express {
-    width: 70%;
+    width: 85%;
 }
 
 .skills__photoshop {
@@ -982,9 +988,16 @@ img {
     font-weight: var(--font-medium);
 }
 
-.contact__subtitle {
+.contact__subtitle a{
     font-size: var(--small-font-size);
+    color: var(--first-color);
+    text-decoration: underline;
+    transition: all .2s ease;
+}
+
+.contact__subtitle a:hover{
     color: var(--text-color-light);
+    text-decoration: none;
 }
 
 .contact__content {
